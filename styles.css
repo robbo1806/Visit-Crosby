@@ -1,0 +1,93 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+.cantarell-regular {
+    font-family: "Cantarell", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body {
+    text-align: center;
+    font-family: "cantarell", sans-serif;
+    text-shadow: 0 0 1px black;
+    margin: 0px;
+}
+
+#hero {
+    background-image: url(images/crobybeachhero.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+#hero-h1 {
+    background-color: #1D3557;
+    border-radius: 15px;
+    padding: 3px 8px;
+}
+
+#hero-h2 {
+    background-color: #457B9D;
+    border-radius: 15px;
+    padding: 3px 8px;
+}
+
+#activities {
+    background-color: #F1FAEE;
+    color: #1D3557;
+    margin-top: 0px;
+    padding-top: 5px;
+}
+
+#activities-wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0 8px 0;
+}
+
+
+.activities {
+    width: 100%;
+    position: relative;
+}
+
+.activ-imgs {
+    width: 200px;
+    border-radius: 50%;
+}
+
+
+.activ-imgs-desc {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    color: whitesmoke;
+    border-radius: 50%;
+    width: 210px;
+    height: 210px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -73%);
+    background-color: #1D3557;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.activities:hover .activ-imgs-desc {
+    visibility: visible;
+    opacity: 1;
+}
