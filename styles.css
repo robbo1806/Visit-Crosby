@@ -98,9 +98,11 @@ body {
     margin: auto;
     background-color: #A8DADC;
     color: #1D3557;
+    justify-content: center;
 }
 
 #guide-img {
     width: 200px;
     border-radius: 50%;
+    margin-right: 20px;
 }
